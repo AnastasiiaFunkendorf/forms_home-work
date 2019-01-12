@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(29deg, #ff512f, #dd2476);
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #9eabad;
+  margin: 0;
+  padding-top: 60px;
+  font-size: 13px;
+  }
+
+body * {
+  box-sizing: border-box;
+
+}
+
+a {
+  color: #ea355a;
+  text-decoration: none;
+}
+
+.wrapper {
+  overflow: hidden;
+  width: 460px;
+  min-height: 470px;
+  margin: auto;
+  background: #ffffff;
+  padding: 32px;
+}
+
+h2 {
+  display: inline-block;
+  margin: 0;
+  color: #1b1c1d;
+  font-size: 24px;
+}
+
+.heder-text {
+  margin-top: 20px;
+}
+
+form {
+  margin: 33px 0 0 0;
+}
+
+.form-field input {
+  height: 40px;
+  padding-left: 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+}
+
+#First-name,
+#Last-name {
+  width: 190px;
+}
+
+#Last-name {
+  margin-left: 12px; 
+}
+
+#Email-address,
+#Password {
+  width: 100%;
+}
+
+button {
+  padding: 16px 0;
+  height: 50px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: #ea355a; 
+  color: white; 
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 3px #bd1962;
+}
+
+.footer-text {
+  margin-top: 28px;
+  font-size: 12px;
+}
